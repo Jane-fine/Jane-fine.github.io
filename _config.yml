@@ -1,22 +1,23 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: ""
-keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+title: 芬格尔的日志
+subtitle: Will Hunting
+SEOTitle: 快乐星球
+header-img: img/home.jpg
+email: nostalgiazcz@gmail.com
+description: "衰仔的初春"
+keyword: "CS50"
+url: "https://blog.nostalgiaecho.xyz"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:
+zhihu_username:
+github_username:    Jane-fine
+twitter_username:  nostalgia233
+facebook_username:
 
 
 
@@ -33,7 +34,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
+plugins: [jekyll-paginate]
 
 
 # Markdown settings
@@ -50,26 +51,26 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+# duoshuo_username:
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: c6e774b4edeb531f954419499ccd0553
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-162790717-1'            # Format: UA-xxxxxx-xx
+ga_domain: blog.nostalgiaecho.xyz
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "遥望远方就是回首过去"
+sidebar-avatar: /img/nerd.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -82,19 +83,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Foo",
+        title: "CYF",
         href: "#"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
+        title: "WT",
         href: "#"
     }
 ]
