@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "text"
+subtitle:   "测试"
+iframe:     ""
+date:       2020-04-06
+author:     "Nerd"
+header-img: "img/post-text.jpg"
+tags:
+    - 测试
+---
+# 一级
+
+## 二级头
+
+### Thanks
+Blog框架采用*huxblog-boilerplate*大前端攻城狮Hux维护的[轮子](https://github.com/Huxpro/huxpro.github.io)，感谢！
+
+### Catalog
+
+- default
+- page
+- post
+- keynote
